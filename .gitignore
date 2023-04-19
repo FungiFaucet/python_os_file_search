@@ -1,0 +1,32 @@
+# created by virtualenv automatically
+# Compiled Python files
+*.pyc
+__pycache__/
+Lib/
+Scripts/
+
+# Compiled C extensions
+*.so
+*.pyd
+*.dll
+
+# Python virtual environment
+venv/
+
+# PyCharm files
+.idea/
+*.iml
+*.iws
+*.ipr
+These patterns will ignore the following files and directories:
+
+Compiled Python files (.pyc) and Python cache directories (__pycache__/)
+Compiled C extensions (.so, .pyd, and .dll)
+Python virtual environment directories (usually named venv/)
+PyCharm project files (.idea/, .iml, .iws, and .ipr)
+Note that the exact files and directories you want to ignore may vary depending on your project setup and workflow. You should customize your .gitignore file to suit your needs.
+
+
+
+
+
